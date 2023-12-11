@@ -1,0 +1,190 @@
+#appContainer {
+    height:100%;
+    width:100vw;
+    border:1px solid black;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    row-gap:50px;
+}
+
+#backgroundImg{
+    height:100%;
+    width:100vw;
+    position: absolute;
+    z-index: -5;
+}
+
+#locContainer{
+    height: 42px;
+    width: 327px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#PerIcon{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+#yourAdContainer{
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    height: 42px;
+    line-height: 0.5; 
+}
+
+#yourLoc{
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans';
+    color:#636366;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    height: 20px;
+}
+
+#address{
+    margin-top: -5px;
+    font-size:12px;
+    font-weight:600;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    height: 20px;
+}   
+
+#notifBell{
+    height: 40px;
+    width:40px;
+    transition: none;
+    border: none;
+    padding: 0px;
+}
+
+#stateBtnContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 34px;
+    width: 332px;
+    border: 1px solid black;
+    border-radius:19px;
+    background-color: #169A00;
+    gap: 55px;
+    overflow: visible;
+}
+
+#stateText{
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    line-height: 0.5;
+}
+
+#stateBtn::part(track) {
+    background-color: #2e6026;
+    width: 52px;
+    height: 25px;
+}
+
+#stateBtn{
+    --handle-width: 21px;
+    --handle-height: 21px;
+}
+
+#segmentContainer{
+    display: flex;
+}
+
+#segmentBtn{
+    margin-top: -20px;
+    text-align: center;
+    height:31px;
+    width: 110px;
+    border-radius: 12px;
+    border: 1px solid #1c1c1e;
+}
+
+#segmentBtn:active{
+    background-color: #d94343;
+}
+
+#segmentLbl{
+    display: table;
+    color: black;
+    font-family: 'Plus Jakarta Suns';
+    font-size: 12px;
+    line-height: 20px;;
+    font-weight:500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    letter-spacing: 0.5%;
+}
+
+#bookContainer{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#book{
+    display: table;
+    height: 140px;
+    width: 327px;
+    background-image: url(../assets/Images/bookBackground.png);
+    background-position:center;
+    background-size: auto;
+    border-radius: 10px;
+}
+
+#book p{
+    margin-left: 15px;
+    display: flex;
+    font-family: "Plus Jakarta Suns";
+    font-weight: 600;
+    color: white;
+    line-height: 0.3;
+}
+
+#book p:not(#cCare,#status){
+    font-size: 14px;
+}
+
+#cCare{
+    font-size: 18px;
+}
+
+#status{
+    font-size: 15px;
+}
+
+#bookBackgrou.nd{
+    position: absolute;
+    z-index: -5;
+}
+
+#book:first-child{
+    margin-bottom: 10px;
+}
+
+#book:first-child p {
+
+}
+
+#navigationContainer{
+    border: 1px solid black;
+}
