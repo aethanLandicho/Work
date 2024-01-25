@@ -1,0 +1,53 @@
+#Main{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#backgroundImg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+}
+
+#segmentContainer{
+    display: flex;
+
+}
+
+#segmentBtn{
+    height:31px;
+    width: 110px;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+ion-segment-button.ios::part(indicator-background){
+    background: #d94343;
+    border-radius: 12px;
+}
+
+ion-segment-button.ios::part(indicator){
+    background: #d94343;
+    border-radius: 12px;
+}
+
+ion-segment-button.ios::part(native){
+    color: black;
+}
+
+.segment-button-checked.ios::part(native){
+    color: white;
+}
+
+#book{
+    border: 1px solid black;
+    height: 140px;
+    width: 327px;
+    background-image: url("../assets/Booking\ #1.png");
+}
